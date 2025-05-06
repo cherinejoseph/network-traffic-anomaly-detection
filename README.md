@@ -5,8 +5,6 @@ This project uses KQL to detect unusual outbound traffic patterns in Azure netwo
 ## Usage
 Run in Azure Sentinel to flag sources sending >10MB in 7 days, with destination details for SOC analysis. Potential use case: Detecting data exfiltration or botnet activity.
 
-Built by Frank Johnson, CompTIA CSAP | CySA+ certified.
-
 ## Query
 ```kql
 AzureNetworkAnalytics_CL
